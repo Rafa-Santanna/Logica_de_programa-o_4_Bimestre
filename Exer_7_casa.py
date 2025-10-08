@@ -1,0 +1,5 @@
+R=float(input ("Escreva o raio"))
+V=(4/3)*3.1415*(R*R*R)
+A=4*3.14*(R*R)
+print("O Volume é:",V)
+print("A area é",A)
