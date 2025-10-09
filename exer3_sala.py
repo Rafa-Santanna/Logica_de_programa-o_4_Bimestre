@@ -1,4 +1,8 @@
-r= float(input("Digite o raio da lata"))
-h=float(input("Digite a altura da lata"))
-v=3.14159 * r * r* h
-print("O volume da lata é",'%.2f'%v)
+a= float(input ("Digite o maior valor:"))
+b= float(input ("Digite o menor valor:"))
+if  a>b:
+    r=a-b
+else:
+    r=b-a
+
+print("O valor é", r)

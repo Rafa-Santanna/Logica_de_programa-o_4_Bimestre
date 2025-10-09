@@ -1,3 +1,6 @@
-num1= float(input("Digite o primeiro numero"))
-q=num1*num1
-print("O quadrado do numero é",'%2f'%q)
+a= float(input ("Digite a primeira valor:"))
+b= float(input ("Digite a segunda valor:"))
+c= float(input ("Digite a terceira valor:"))
+R=[a,b,c]
+R.sort()
+print(R)
